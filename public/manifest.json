@@ -1,0 +1,17 @@
+{
+  "name": "Tofash — Homemade Desserts",
+  "short_name": "Tofash",
+  "description": "Discover homemade desserts from trusted sellers in Addis Ababa",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fce1e3",
+  "theme_color": "#db404f",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["food", "shopping", "lifestyle"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

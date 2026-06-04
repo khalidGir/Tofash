@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-blush-paper: #fce1e3;
+  --color-coral-crimson: #db404f;
+  --color-midnight-ink: #0e1736;
+  --color-pure-white: #ffffff;
+  --color-soft-black: #000000;
+
+  --color-brand-50: #fdf2f3;
+  --color-brand-100: #fce1e3;
+  --color-brand-200: #f9c3c7;
+  --color-brand-300: #f5a5ab;
+  --color-brand-400: #ee7a83;
+  --color-brand-500: #db404f;
+  --color-brand-600: #c73a47;
+  --color-brand-700: #a32e39;
+  --color-brand-800: #7f222b;
+  --color-brand-900: #5c161d;
+
+  --font-sans: var(--font-nunito-sans), var(--font-noto-sans-ethiopic), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-sansita), var(--font-noto-sans-ethiopic), serif;
+
+  --radius-shapes: 90px;
+  --radius-pill: 300px;
+
+  --color-background: #fce1e3;
+  --color-foreground: #db404f;
+}
+
+@keyframes slide-up {
+  from { transform: translateY(100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slide-down {
+  from { transform: translateY(-10px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}

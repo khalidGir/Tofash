@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "home": "ቤት",
+    "search": "ፈልግ",
+    "cart": "ጋሪ",
+    "account": "መለያ",
+    "login": "ግባ",
+    "logout": "ውጣ",
+    "register": "ተመዝገብ"
+  },
+  "auth": {
+    "phone_label": "ስልክ ቁጥር",
+    "phone_placeholder": "+251 91 234 5678",
+    "send_otp": "OTP ላክ",
+    "verify_otp": "OTP አረጋግጥ",
+    "otp_placeholder": "ኮድ አስገባ",
+    "otp_sent": "OTP ወደ {phone} ተልኳል",
+    "resend_otp": "ኮዱን እንደገና ላክ",
+    "phone_required": "ስልክ ቁጥር ያስፈልጋል",
+    "otp_required": "የማረጋገጫ ኮድ ያስፈልጋል",
+    "invalid_phone": "እባክዎ ትክክለኛ የኢትዮጵያ ስልክ ቁጥር ያስገቡ",
+    "login_title": "ወደ ቶፋሽ እንኳን ደህና መጡ",
+    "login_subtitle": "ለመጀመር ስልክ ቁጥርዎን ያስገቡ"
+  },
+  "products": {
+    "add_to_cart": "ወደ ጋሪ አክል",
+    "added_to_cart": "ወደ ጋሪ ተጨምሯል",
+    "price": "ዋጋ",
+    "rating": "ደረጃ",
+    "out_of_stock": "አይገኝም",
+    "in_stock": "በክምር ይገኛል",
+    "description": "መግለጫ",
+    "reviews": "አስተያየቶች",
+    "related_products": "ተመሳሳይ ምርቶች",
+    "quantity": "ብዛት",
+    "prep_time": "የዝግጅት ጊዜ",
+    "category": "ምድብ",
+    "search_placeholder": "ጣፋጭ ምግቦችን፣ መደብሮችን ፈልግ...",
+    "no_results": "ምንም ምርቶች አልተገኙም",
+    "no_results_desc": "ፍለጋዎን ለማስተካከል ይሞክሩ"
+  },
+  "orders": {
+    "title": "ትዕዛዞቼ",
+    "order_number": "ትዕዛዝ #{id}",
+    "placed_on": "የተቀመጠው በ {date}",
+    "total": "ጠቅላላ",
+    "status": {
+      "pending_payment": "ክፍያ በመጠበቅ ላይ",
+      "pending_verification": "ማረጋገጫ በመጠበቅ ላይ",
+      "accepted": "ተቀባይነት አግኝቷል",
+      "rejected": "ውድቅ ተደርጓል",
+      "completed": "ተጠናቋል",
+      "cancelled": "ተሰርዟል",
+      "expired": "ጊዜው አልፎበታል"
+    },
+    "actions": {
+      "place_order": "ትእዛዝ አስቀምጥ",
+      "upload_proof": "የክፍያ ማረጋገጫ ስቀል",
+      "cancel": "ትእዛዝ ሰርዝ",
+      "view_details": "ዝርዝሮችን ተመልከት"
+    },
+    "empty": "ገና ምንም ትዕዛዞች የሉም",
+    "empty_desc": "ትዕዛዝ ሲያስቀምጡ እዚህ ይታያሉ"
+  },
+  "cart": {
+    "title": "የግብዣ ጋሪ",
+    "empty": "ጋሪዎ ባዶ ነው",
+    "empty_desc": "ጣፋጭ ምግቦችን ይቃኙ እና ወደ ጋሪ ያክሉ",
+    "subtotal": "ድምር",
+    "checkout": "ክፈል",
+    "continue_shopping": "መግዛት ቀጥል",
+    "remove": "አስወግድ",
+    "notes": "የትእዛዝ ማስታወሻ",
+    "notes_placeholder": "ልዩ መመሪያዎች አሉ?",
+    "clear": "ጋሪ አጽዳ"
+  },
+  "seller": {
+    "dashboard": "ዳሽቦርድ",
+    "products": "ምርቶች",
+    "orders": "ትዕዛዞች",
+    "settings": "ቅንብሮች",
+    "chat": "ውይይት",
+    "add_product": "ምርት አክል",
+    "edit_product": "ምርት አስተካክል",
+    "store_settings": "የመደብር ቅንብሮች",
+    "total_orders": "ጠቅላላ ትዕዛዞች",
+    "total_revenue": "ጠቅላላ ገቢ",
+    "active_products": "ንቁ ምርቶች",
+    "pending_orders": "በመጠባበቅ ላይ ያሉ ትዕዛዞች"
+  },
+  "admin": {
+    "approve": "አጽድቅ",
+    "reject": "ውድቅ አድርግ",
+    "suspend": "ታግድ",
+    "analytics": "ትንታኔ",
+    "sellers": "ሻጮች",
+    "products": "ምርቶች",
+    "orders": "ትዕዛዞች",
+    "disputes": "አለመግባባቶች",
+    "seller_management": "የሻጭ አስተዳደር",
+    "product_moderation": "የምርት ቁጥጥር"
+  },
+  "common": {
+    "save": "አስቀምጥ",
+    "cancel": "ሰርዝ",
+    "delete": "ሰርዝ",
+    "edit": "አስተካክል",
+    "loading": "በመጫን ላይ...",
+    "error": "ስህተት ተከስቷል",
+    "error_desc": "እባክዎ በኋላ ይሞክሩ",
+    "empty": "እዚህ ምንም የለም",
+    "retry": "እንደገና ሞክር",
+    "confirm": "አረጋግጥ",
+    "search": "ፈልግ",
+    "filter": "አጣራ",
+    "sort": "ደርድር",
+    "language": "ቋንቋ",
+    "english": "እንግሊዝኛ",
+    "amharic": "አማርኛ",
+    "offline": "ከመስመር ውጭ ነዎት",
+    "offline_desc": "አንዳንድ ባህሪያት ላይገኙ ይችላሉ"
+  },
+  "chat": {
+    "title": "ውይይት",
+    "placeholder": "መልእክት ይጻፉ...",
+    "send": "ላክ",
+    "no_messages": "ገና ምንም መልእክት የለም",
+    "start_chat": "ውይይት ይጀምሩ"
+  },
+  "reviews": {
+    "title": "አስተያየቶች",
+    "write_review": "አስተያየት ይጻፉ",
+    "your_rating": "የእርስዎ ደረጃ",
+    "your_review": "የእርስዎ አስተያየት",
+    "submit": "አስተያየት አስገባ",
+    "no_reviews": "ገና ምንም አስተያየቶች የሉም"
+  }
+}

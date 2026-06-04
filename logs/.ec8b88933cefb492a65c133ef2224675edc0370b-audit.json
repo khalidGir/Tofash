@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\hp\\ALL_PROJECTS\\abdulmenan\\Tofash\\logs\\.ec8b88933cefb492a65c133ef2224675edc0370b-audit.json",
+    "files": [
+        {
+            "date": 1780529227203,
+            "name": "C:\\Users\\hp\\ALL_PROJECTS\\abdulmenan\\Tofash\\logs\\mcp-puppeteer-2026-06-04.log",
+            "hash": "bc3c8f9e117eae6a516672ffbec9027e78456181242b933ded2747399a87e1cb"
+        }
+    ],
+    "hashType": "sha256"
+}

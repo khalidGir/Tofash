@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "home": "Home",
+    "search": "Search",
+    "cart": "Cart",
+    "account": "Account",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register"
+  },
+  "auth": {
+    "phone_label": "Phone Number",
+    "phone_placeholder": "+251 91 234 5678",
+    "send_otp": "Send OTP",
+    "verify_otp": "Verify OTP",
+    "otp_placeholder": "Enter code",
+    "otp_sent": "OTP sent to {phone}",
+    "resend_otp": "Resend code",
+    "phone_required": "Phone number is required",
+    "otp_required": "Verification code is required",
+    "invalid_phone": "Please enter a valid Ethiopian phone number",
+    "login_title": "Welcome to Tofash",
+    "login_subtitle": "Enter your phone number to get started"
+  },
+  "products": {
+    "add_to_cart": "Add to Cart",
+    "added_to_cart": "Added to cart",
+    "price": "Price",
+    "rating": "Rating",
+    "out_of_stock": "Out of Stock",
+    "in_stock": "In Stock",
+    "description": "Description",
+    "reviews": "Reviews",
+    "related_products": "You May Also Like",
+    "quantity": "Quantity",
+    "prep_time": "Preparation Time",
+    "category": "Category",
+    "search_placeholder": "Search desserts, stores...",
+    "no_results": "No products found",
+    "no_results_desc": "Try adjusting your search or filter"
+  },
+  "orders": {
+    "title": "My Orders",
+    "order_number": "Order #{id}",
+    "placed_on": "Placed on {date}",
+    "total": "Total",
+    "status": {
+      "pending_payment": "Pending Payment",
+      "pending_verification": "Pending Verification",
+      "accepted": "Accepted",
+      "rejected": "Rejected",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "expired": "Expired"
+    },
+    "actions": {
+      "place_order": "Place Order",
+      "upload_proof": "Upload Payment Proof",
+      "cancel": "Cancel Order",
+      "view_details": "View Details"
+    },
+    "empty": "No orders yet",
+    "empty_desc": "Your orders will appear here once you place one"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "empty_desc": "Browse desserts and add items to your cart",
+    "subtotal": "Subtotal",
+    "checkout": "Checkout",
+    "continue_shopping": "Continue Shopping",
+    "remove": "Remove",
+    "notes": "Order Notes",
+    "notes_placeholder": "Any special instructions?",
+    "clear": "Clear Cart"
+  },
+  "seller": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "orders": "Orders",
+    "settings": "Settings",
+    "chat": "Chat",
+    "add_product": "Add Product",
+    "edit_product": "Edit Product",
+    "store_settings": "Store Settings",
+    "total_orders": "Total Orders",
+    "total_revenue": "Total Revenue",
+    "active_products": "Active Products",
+    "pending_orders": "Pending Orders"
+  },
+  "admin": {
+    "approve": "Approve",
+    "reject": "Reject",
+    "suspend": "Suspend",
+    "analytics": "Analytics",
+    "sellers": "Sellers",
+    "products": "Products",
+    "orders": "Orders",
+    "disputes": "Disputes",
+    "seller_management": "Seller Management",
+    "product_moderation": "Product Moderation"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "error_desc": "Please try again later",
+    "empty": "Nothing here yet",
+    "retry": "Retry",
+    "confirm": "Confirm",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "language": "Language",
+    "english": "English",
+    "amharic": "Amharic",
+    "offline": "You are offline",
+    "offline_desc": "Some features may be unavailable"
+  },
+  "chat": {
+    "title": "Chat",
+    "placeholder": "Type a message...",
+    "send": "Send",
+    "no_messages": "No messages yet",
+    "start_chat": "Start a conversation"
+  },
+  "reviews": {
+    "title": "Reviews",
+    "write_review": "Write a Review",
+    "your_rating": "Your Rating",
+    "your_review": "Your Review",
+    "submit": "Submit Review",
+    "no_reviews": "No reviews yet"
+  }
+}

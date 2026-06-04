@@ -1,0 +1,30 @@
+# Supabase local development
+.env
+.env.local
+.env.*.local
+
+# Supabase CLI build artifacts
+supabase/.branches
+supabase/.temp
+supabase/.cache
+
+# Docker volumes
+volumes/
+
+# Deno cache
+.deno/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log

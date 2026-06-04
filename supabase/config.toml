@@ -1,0 +1,70 @@
+[project]
+name = "tofash"
+ref = ""
+plan = "free"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "storage", "graphql_public"]
+extra_search_path = ["public"]
+max_request_size = 10485760
+
+[db]
+migration_dirs = ["supabase/migrations"]
+seed_file = "supabase/seed.sql"
+major_version = 15
+
+[db.pooler]
+enabled = true
+pool_mode = "transaction"
+default_pool_size = 15
+max_client_conn = 100
+
+[auth]
+enabled = true
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["https://tofash.vercel.app"]
+jwt_expiry = 3600
+enable_signup = true
+enable_confirmations = false
+mailer_auto_confirm = true
+phone_otp_length = 6
+phone_otp_sms_template = "Your Tofash verification code is {{ .Code }}"
+
+[auth.sms]
+provider = "vonage"
+
+[auth.sms.vonage]
+api_key = "env(VONAGE_API_KEY)"
+api_secret = "env(VONAGE_API_SECRET)"
+
+[auth.external]
+enabled = false
+
+[edge_runtime]
+enabled = true
+policy = "per_worker"
+inspector_port = 8083
+
+[functions]
+enabled = true
+
+[analytics]
+enabled = true
+port = 54327
+vector_port = 54328
+
+[storage]
+enabled = true
+file_size_limit = 10485760
+image_transformation = false
+
+[storage.s3]
+enabled = false
+
+[realtime]
+enabled = true
+max_channels = 100
+max_join_per_second = 10
+max_events_per_second = 100
